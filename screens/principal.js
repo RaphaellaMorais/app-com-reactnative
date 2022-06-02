@@ -70,7 +70,7 @@ export default function Principal() {
       />
     </Tab.Navigator>
   );
-}
+} 
 
 /*export default function App() {
   return (

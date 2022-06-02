@@ -18,7 +18,7 @@ export default function Login({navigation}) {
   }
 
   const cadastrar = () => {
-      
+    navigation.navigate("Cadastro")    
   }
 
   return (
@@ -60,7 +60,6 @@ export default function Login({navigation}) {
         buttonStyle={specificStyle.button}
         onPress={() => cadastrar()}
       />
-
 
     </View>
   );
