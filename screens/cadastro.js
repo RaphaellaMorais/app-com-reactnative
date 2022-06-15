@@ -33,6 +33,7 @@ export default function Cadastro({navigation}) {
   }
 
   const salvar = () => {
+    navigation.navigate("Login")
     if (validar()){
       console.log("Salvou")  
     }
@@ -43,12 +44,7 @@ export default function Cadastro({navigation}) {
       <Text h3>Cadastre-se</Text>
     <Input
         placeholder="E-mail"
-        onChangeText={value => {
-          setEmail(value)
-          setErrorEmail(null)
-        }}
-        keyboardType="email-address"
-        errorMessage={errorEmail}        
+        keyboardType="email-address"    
         />
 
     <Input

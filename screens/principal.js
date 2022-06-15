@@ -1,14 +1,127 @@
 import * as React from 'react';
 import { Text, View } from 'react-native';
+import { Input, CheckBox } from 'react-native-elements';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 function Feed() {
+  const [isSelected1, setSelected1] = React.useState(false)
+  const [isSelected2, setSelected2] = React.useState(false)
+  const [isSelected3, setSelected3] = React.useState(false)
+  const [isSelected4, setSelected4] = React.useState(false)
+  const [isSelected5, setSelected5] = React.useState(false)
+
+  const [isSelected6, setSelected6] = React.useState(false)
+  const [isSelected7, setSelected7] = React.useState(false)
+  const [isSelected8, setSelected8] = React.useState(false)
+  const [isSelected9, setSelected9] = React.useState(false)
+  const [isSelected10, setSelected10] = React.useState(false)
+
+  
   return (
+    <>
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Feed!</Text>
+        <Text>Titulo da Pergunta</Text>
+        <CheckBox 
+                title="*Seus dados estão protegidos e são totalmente sigilosos."
+                checkedIcon="check"
+                uncheckedIcon="square-o"
+                checkedColor="green"
+                uncheckedColor="red"
+                checked={isSelected1}
+                onPress={() => setSelected1(!isSelected1)}
+            />
+            <CheckBox 
+                title="*Seus dados estão protegidos e são totalmente sigilosos."
+                checkedIcon="check"
+                uncheckedIcon="square-o"
+                checkedColor="green"
+                uncheckedColor="red"
+                checked={isSelected2}
+                onPress={() => setSelected2(!isSelected2)}
+            />
+            <CheckBox 
+                title="*Seus dados estão protegidos e são totalmente sigilosos."
+                checkedIcon="check"
+                uncheckedIcon="square-o"
+                checkedColor="green"
+                uncheckedColor="red"
+                checked={isSelected3}
+                onPress={() => setSelected3(!isSelected3)}
+            />
+            <CheckBox 
+                title="*Seus dados estão protegidos e são totalmente sigilosos."
+                checkedIcon="check"
+                uncheckedIcon="square-o"
+                checkedColor="green"
+                uncheckedColor="red"
+                checked={isSelected4}
+                onPress={() => setSelected4(!isSelected4)}
+            />
+            <CheckBox 
+                title="*Seus dados estão protegidos e são totalmente sigilosos."
+                checkedIcon="check"
+                uncheckedIcon="square-o"
+                checkedColor="green"
+                uncheckedColor="red"
+                checked={isSelected5}
+                onPress={() => setSelected5(!isSelected5)}
+            />
     </View>
+
+
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+            <Text>Titulo da Pergunta</Text>
+            <CheckBox 
+                    title="*Seus dados estão protegidos e são totalmente sigilosos."
+                    checkedIcon="check"
+                    uncheckedIcon="square-o"
+                    checkedColor="green"
+                    uncheckedColor="red"
+                    checked={isSelected6}
+                    onPress={() => setSelected6(!isSelected6)}
+                />
+                <CheckBox 
+                    title="*Seus dados estão protegidos e são totalmente sigilosos."
+                    checkedIcon="check"
+                    uncheckedIcon="square-o"
+                    checkedColor="green"
+                    uncheckedColor="red"
+                    checked={isSelected7}
+                    onPress={() => setSelected7(!isSelected7)}
+                />
+                <CheckBox 
+                    title="*Seus dados estão protegidos e são totalmente sigilosos."
+                    checkedIcon="check"
+                    uncheckedIcon="square-o"
+                    checkedColor="green"
+                    uncheckedColor="red"
+                    checked={isSelected8}
+                    onPress={() => setSelected8(!isSelected8)}
+                />
+                <CheckBox 
+                    title="*Seus dados estão protegidos e são totalmente sigilosos."
+                    checkedIcon="check"
+                    uncheckedIcon="square-o"
+                    checkedColor="green"
+                    uncheckedColor="red"
+                    checked={isSelected9}
+                    onPress={() => setSelected9(!isSelected9)}
+                />
+                <CheckBox 
+                    title="*Seus dados estão protegidos e são totalmente sigilosos."
+                    checkedIcon="check"
+                    uncheckedIcon="square-o"
+                    checkedColor="green"
+                    uncheckedColor="red"
+                    checked={isSelected10}
+                    onPress={() => setSelected10(!isSelected10)}
+                />
+        </View>
+
+        
+    </>
   );
 }
 
