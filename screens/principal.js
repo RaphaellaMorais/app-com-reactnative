@@ -11,23 +11,63 @@ export default function Formulario() {
   return (
     <>
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        
+
         <FormField 
-          title='Indique a cidade e o polo presencial em que você estuda'
-          placeholder='Digite a cidade'
+          title='Qual o seu curso?'
+          placeholder='Digite aqui'
         
         />
 
+        <FormField 
+          title='Qual sua turma?'
+          placeholder='Digite aqui'
+        />
 
         <FormField 
-          title='Indique a cidade e o polo presencial em que você estuda'
-          placeholder='Digite a cidade'
+          title='Qual o seu curso?'
+          placeholder='Digite aqui'
         
         />
 
+        <FormField 
+          title='Qual ano/mês você iniciou o curso?'
+          placeholder='Digite aqui'
+        />
 
         <FormField 
-          title='Indique a cidade e o polo presencial em que você estuda'
-          placeholder='Digite a cidade'
+          title='Indique a cidade e o polo presencial em que você estuda:'
+          placeholder='Digite aqui'
+        />
+
+        <FormField 
+          title='As opiniões de colegas e do(a) professor(a) contribuíram para o meu processo de aprendizagem?'
+          placeholder='Digite aqui'
+        />
+
+        <FormField 
+          title='As discussões e debates realizados no AVA foram importantes para minha tomada de posição frente aos temas?'
+          placeholder='Digite aqui'
+        />
+
+        <FormField 
+          title='Dentro das minhas condições práticas e de organização, os prazos para a realização das atividades foram suficientes?'
+          placeholder='Digite aqui'
+        />
+
+        <FormField 
+          title='Sinto-me motivado(a) a aplicar os conhecimentos obtidos nesta disciplina do curso?'
+          placeholder='Digite aqui'
+        />
+
+        <FormField 
+          title='O material disponibilizado foi suficiente para a aprendizagem do conteúdo?'
+          placeholder='Digite aqui'
+        />
+
+        <FormField 
+          title='As leituras complementares e dicas do(a) professor(a) enriqueceram seu aprendizado?'
+          placeholder='Digite aqui'
         />
 
             
